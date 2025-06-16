@@ -1,30 +1,31 @@
-📝 Description
-This repository contains my solution to the Tic Tac Toe project from Harvard's CS50’s Introduction to Artificial Intelligence with Python (2024). The project implements an unbeatable Tic Tac Toe AI using the Minimax algorithm with recursive game-tree search.
+# 🎮 Tic Tac Toe AI – CS50 AI 2024 Project 0
 
-🎮 Features
-Turn-based Tic Tac Toe engine in Python
+This is my solution to [CS50's AI Project 0: Tic Tac Toe](https://cs50.harvard.edu/ai/2024/projects/0/tictactoe/), where I implemented an unbeatable AI agent using the **Minimax algorithm** with optimal decision-making.
 
-AI plays optimally using the Minimax algorithm
+## 🚀 Features
 
-Detects terminal states, draws, and winning moves
+- Full implementation of the Tic Tac Toe game logic
+- Minimax algorithm with recursion to simulate all possible future moves
+- AI that never loses – it either wins or draws
+- Intelligent move selection for both 'X' and 'O'
 
-Clean, modular design with player(), actions(), result(), winner(), and utility() functions
+## 🧠 How It Works
 
-🧠 Core Concepts
-Game theory and adversarial search
+The AI evaluates all possible game states recursively to determine the optimal move. It assumes the opponent plays optimally and chooses the path that leads to the best guaranteed outcome.
 
-Recursion and backtracking
+## 📂 Files
 
-Optimal decision making with Minimax
+- `tictactoe.py`: Core logic, including game rules and Minimax algorithm
+- `runner.py`: A basic command-line interface to play against the AI
+- `README.md`: This file
 
-Zero-sum utility evaluation
+## 📦 Requirements
 
-📂 Structure
-tictactoe.py — Core logic and AI strategy
+- Python 3
 
-runner.py — Command-line interface to play/test the game
+No external libraries required.
 
-README.md — Project overview and instructions
+## ✅ Usage
 
-🔗 Project Link
-Original project instructions: CS50 AI 2024 – Tic Tac Toe
+```bash
+python runner.py
